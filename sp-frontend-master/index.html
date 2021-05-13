@@ -1,0 +1,181 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Document</title>
+  <link rel="stylesheet" href="style.css">
+  <!-- <link rel="stylesheet" href="{% static 'css/base/base2.css' %}"> -->
+
+  <!-- font awesome CDN -->
+  <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.15.3/css/all.css" integrity="sha384-SZXxX4whJ79/gErwcOYf+zWLeJdY/qpuqC4cAa9rOGUstPomtqpuNWT9wdPEn2fk" crossorigin="anonymous">
+
+  <!-- google font link -->
+  <link rel="preconnect" href="https://fonts.gstatic.com">
+  <link href="https://fonts.googleapis.com/css2?family=Reggae+One&display=swap" rel="stylesheet">
+
+  <style>
+    .card:hover {
+      box-shadow: 0 7px 30px 10px rgba(46, 50, 53, 0.5);
+    }
+  </style>
+</head>
+
+<body oncontextmenu="return false;">
+  <nav>
+    <input id="nav-toggle" type="checkbox">
+    <p>
+      <i class="fas fa-user-graduate"> </i> Student Point
+    </p>
+    <ul class="links">
+      <li><a href="/home">Home</a></li>
+      <li><a href="#">About</a></li>
+      <li><a href="#">Contact Us</a></li>
+      <li><a href="#">Profile</a></li>
+      <!-- {% if user.is_authenticated %} -->
+      <li><a href="{% url 'ulogout' %}">Logout</a></li>
+      <!-- {% else %} -->
+      <!-- <li><a href="{% url 'index' %}">Login</a></li> -->
+      <!-- {% endif %} -->
+    </ul>
+    <label for="nav-toggle" class="icon-burger">
+      <div class="line"></div>
+      <div class="line"></div>
+      <div class="line"></div>
+    </label>
+  </nav>
+  <main>
+    <input id="nav-toggle1" type="checkbox">
+    <ul class="ul-nev">
+      <p class="nev-head">
+        <!-- {% block content-2 %} -->
+        <!-- {{context}} -->
+
+        <!-- {% endblock %} -->
+        Physics
+      </p>
+      <li class="lefto-nev-li">Chapter 1</li>
+      <li class="lefto-nev-li">Chapter 2</li>
+      <li class="lefto-nev-li">Chapter 3</li>
+      <li class="lefto-nev-li">Chapter 4</li>
+      <li class="lefto-nev-li">Chapter 6</li>
+      <li class="lefto-nev-li">Chapter 5</li>
+      <li class="lefto-nev-li">Chapter 7</li>
+      <li class="lefto-nev-li">Chapter 8</li>
+      <li class="lefto-nev-li">Chapter 9</li>
+      <li class="lefto-nev-li">Chapter 10</li>
+      <li class="lefto-nev-li">Chapter 11</li>
+      <li class="lefto-nev-li">Chapter 12</li>
+      <li class="lefto-nev-li">Chapter 13</li>
+      <li class="lefto-nev-li">Chapter 14</li>
+      <li class="lefto-nev-li">Chapter 15</li>
+      <li class="lefto-nev-li">Chapter 16</li>
+      <li class="lefto-nev-li">Chapter 17</li>
+      <li class="lefto-nev-li">Chapter 18</li>
+      <div class="line1"></div>
+
+    </ul>
+    <label for="nav-toggle1" class="icon-burger1">
+      <div class="line1"></div>
+      <div class="line1"></div>
+    </label>
+  </main>
+  <div class=wrapper>
+
+    <div class="cont">
+      <div class=card>
+        <a id="myVideo" href=""><img src="1.jpg" alt="not found"></a>
+      </div>
+      <div class=info>
+        <h1>Card Title</h1>
+      </div>
+    </div>
+
+    <div class="cont">
+      <div class=card>
+        <a id="myVideo" href=""><img src="1.jpg" alt="not found"></a>
+      </div>
+      <div class=info>
+        <h1>Card Title</h1>
+      </div>
+    </div>
+
+    <div class="cont">
+      <div class=card>
+        <a id="myVideo" href=""><img src="1.jpg" alt="not found"></a>
+      </div>
+      <div class=info>
+        <h1>Card Title</h1>
+      </div>
+    </div>
+
+    <div class="cont">
+      <div class=card>
+        <a id="myVideo" href=""><img src="1.jpg" alt="not found"></a>
+      </div>
+      <div class=info>
+        <h1>Card Title</h1>
+      </div>
+    </div>
+
+    <div class="cont">
+      <div class=card>
+        <a id="myVideo" href=""><img src="1.jpg" alt="not found"></a>
+      </div>
+      <div class=info>
+        <h1>Card Title</h1>
+      </div>
+    </div>
+
+    <div class="cont">
+      <div class=card>
+        <a id="myVideo" href=""><img src="1.jpg" alt="not found"></a>
+      </div>
+      <div class=info>
+        <h1>Card Title</h1>
+      </div>
+    </div>
+
+    <div class="cont">
+      <div class=card>
+        <a id="myVideo" href=""><img src="1.jpg" alt="not found"></a>
+      </div>
+      <div class=info>
+        <h1>Card Title</h1>
+      </div>
+    </div>
+
+    <div class="cont">
+      <div class=card>
+        <a id="myVideo" href=""><img src="1.jpg" alt="not found"></a>
+      </div>
+      <div class=info>
+        <h1>Card Title</h1>
+      </div>
+    </div>
+
+    <div class="cont">
+      <div class=card>
+        <a id="myVideo" href=""><img src="1.jpg" alt="not found"></a>
+      </div>
+      <div class=info>
+        <h1>Card Title</h1>
+      </div>
+    </div>
+
+    <div class="cont">
+      <div class=card>
+        <a id="myVideo" href=""><img src="1.jpg" alt="not found"></a>
+      </div>
+      <div class=info>
+        <h1>Card Title</h1>
+      </div>
+    </div>
+
+  </div>
+
+</body>
+
+</html>
