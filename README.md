@@ -1,1 +1,0 @@
-# student-point-sample-temp-
